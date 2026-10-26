@@ -1,0 +1,9 @@
+# Built venvs (torch/CUDA extensions, multi-GB) -- rebuild with `make build`
+envs-h100/
+
+# Cloned repo, not part of this scripts package -- `make build` clones it fresh
+slamio-final/
+slamio-main/
+
+# Stray env setup / leftover build state, in case of a repeated failed run
+WD/
