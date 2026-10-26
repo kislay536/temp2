@@ -13,6 +13,7 @@ dataset:
 REPLICA_SRC := /scratch/sws0/user/karya/3dgs/datasets/replica/Replica
 
 dataset-symlink:
+	mkdir -p slamio-final/SplaTAM/data
 	ln -sfn "$(REPLICA_SRC)" slamio-final/SplaTAM/data/Replica
 
 # CUDA_HOME points at the GCC-14-compatible "wrapped" nvcc that setup_env.sh
